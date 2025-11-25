@@ -1,7 +1,0 @@
-name: my_bq_project
-version: 1.0.0
-profile: my_bigquery_profile
-
-models:
-  my_bq_project:
-    +materialized: view
