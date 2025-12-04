@@ -1,3 +1,4 @@
+-- agency_dimension.sql
 SELECT 
     row_number() OVER () AS agency_dim_id,
     agency, agency_name, current_timestamp() as loaded_at
