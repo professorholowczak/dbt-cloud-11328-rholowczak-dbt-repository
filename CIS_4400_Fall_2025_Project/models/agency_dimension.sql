@@ -1,5 +1,5 @@
 -- agency_dimension.sql 
-WITH agency_column AS
+WITH agency_columns AS
 ( 
      SELECT DISTINCT agency, agency_name
      FROM {{ ref('raw_311_complaints') }}
