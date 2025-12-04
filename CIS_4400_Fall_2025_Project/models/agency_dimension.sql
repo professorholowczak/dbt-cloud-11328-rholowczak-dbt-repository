@@ -4,5 +4,4 @@ SELECT
 FROM  
    ( SELECT DISTINCT agency, agency_name
      FROM {{ ref('raw_311_complaints') }}
-     
     )
