@@ -5,3 +5,4 @@ profile: Bigquery
 models:
   CIS_4400_Fall_2025_Project:
     +materialized: table
+    
